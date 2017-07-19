@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/pt_sans-web-regular.woff2') format('woff2'),
+         url('../fonts/pt_sans-web-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/pt_sans-web-bold.woff2') format('woff2'),
+         url('../fonts/pt_sans-web-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+* {
+ margin: 0;
+ padding: 0; 
+}
+fieldset, input, textarea {outline:none; color: inherit; -webkit-appearance: none; background: none; border: none; border-radius: 0; font-family: inherit;resize: none; line-height: normal;} 
+select {outline:none; color: inherit; background: none; border: none; border-radius: 0; font-family: inherit;resize: none; line-height: normal; cursor: pointer;} 
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { color:transparent!important; }
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { color:transparent!important; } 
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { color:transparent!important; } 
+input::-ms-clear {
+    display: none;
+}
+address, article, aside, canvas,
+figcaption, figure, footer, header,
+hgroup, nav, section, summary {
+	display: block;
+}
+.bx-wrapper {
+	margin: 0 auto;
+}
+.noselect {
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bx-wrapper .bx-controls-direction a {
+	z-index: 20;
+}
+body {
+	font-family: 'PT Sans', Arial, sans-serif;
+	color: #34495e;
+}
+body.popScrollVisiblle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+a, a:hover, a:visited, a:active {
+  border:none;
+  border-style:none;
+  outline:none;
+  text-decoration: none;
+  cursor: pointer;
+}
+p {margin-bottom: 5px; }
+span, b, strong {}
+a {color: inherit;}
+div {display: block;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal; font-size: inherit}
+a img {border: 0px; }
+ul {list-style: none;}
+svg {display: inline-block; fill: currentColor;vertical-align: top;}
+[data-tip] {cursor: pointer;}
+img.fits{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+}
+img.fits.inline{
+	display: inline-block;
+	vertical-align: middle;
+}
+.clear {clear: both}
+.clearfix:after,
+.clear_after:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.vfixed-container {
+	font-size: 0;
+}
+.vfixed-item {
+	display: inline-block; 
+	vertical-align: middle;
+	max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+.vfix {
+	height: 100%;
+	width: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
